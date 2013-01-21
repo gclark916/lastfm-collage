@@ -4,6 +4,10 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="lib/json_simple-1.1.jar"/>
 	<classpathentry kind="lib" path="lib/CMYKDemo.jar"/>
-	<classpathentry kind="lib" path="lib/swt.jar"/>
+	<classpathentry kind="lib" path="lib/swt.jar" sourcepath="C:/Users/Greg/workspace/swt-4.2.1-win32-win32-x86_64/src">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/Greg/workspace/swt-4.2.1-win32-win32-x86_64/doc/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

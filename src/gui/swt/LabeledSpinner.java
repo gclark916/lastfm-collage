@@ -29,4 +29,18 @@ public class LabeledSpinner {
 		this.spinner.setEnabled(enabled);
 	}
 
+	/**
+	 * @return the spinner
+	 */
+	public Spinner getSpinner() {
+		return spinner;
+	}
+
+	/**
+	 * @return the label
+	 */
+	public Label getLabel() {
+		return label;
+	}
+
 }

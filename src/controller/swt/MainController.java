@@ -43,7 +43,6 @@ public class MainController {
 									public void run() {
 										settingsPaneController.getSettingsPane().setEnabled(true);
 										mainComposite.getButtonPanel().setEnabled(true);
-										Collage c1 = collage;
 										Image convertedImage = new Image(Display.getDefault(), util.Image.convertAWTtoSWT(collage.getImage()));
 										mainComposite.getImageCanvas().setImage(convertedImage);
 										mainComposite.getImageCanvas().redraw();
@@ -60,6 +59,14 @@ public class MainController {
 				
 				Thread thread = new Thread(runnable);
 				thread.start();
+			}
+		});
+		
+		this.mainComposite.getButtonPanel().getSaveCollageButton().addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				if (collage != null)
+					collage.saveToFile();
 			}
 		});
 		

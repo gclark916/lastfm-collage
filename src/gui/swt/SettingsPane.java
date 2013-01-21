@@ -73,4 +73,12 @@ public class SettingsPane extends Composite {
 		return dimensionsGroup;
 	}
 
+
+	/**
+	 * @return the showNamesCheckbox
+	 */
+	public Button getShowNamesCheckbox() {
+		return showNamesCheckbox;
+	}
+
 }

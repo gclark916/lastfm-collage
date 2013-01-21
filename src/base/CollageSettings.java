@@ -72,7 +72,7 @@ public class CollageSettings {
 			case "-k":
 				key = args[argIndex+1];
 				break;
-			case "n":
+			case "-n":
 				drawText = true;
 				break;
 			}

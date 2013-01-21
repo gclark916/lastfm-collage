@@ -41,4 +41,11 @@ public class UsernameTextBox {
 		this.usernameText.setEnabled(enabled);
 	}
 
+	/**
+	 * @return the usernameText
+	 */
+	public Text getUsernameText() {
+		return usernameText;
+	}
+
 }
