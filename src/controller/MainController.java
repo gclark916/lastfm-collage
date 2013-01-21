@@ -1,6 +1,6 @@
-package controller.swt;
+package controller;
 
-import gui.swt.MainComposite;
+import gui.MainComposite;
 
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
@@ -27,6 +27,8 @@ public class MainController {
 		
 		this.mainComposite = new MainComposite(shell);
 		shell.setLayout(new FillLayout());
+		shell.setSize(1100, 910);
+		shell.setLocation(0, 0);
 		
 		this.mainComposite.getButtonPanel().getGenerateCollageButton().addSelectionListener(new SelectionAdapter() {
 			@Override

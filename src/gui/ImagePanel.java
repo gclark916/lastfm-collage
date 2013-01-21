@@ -1,4 +1,4 @@
-package gui.swt;
+package gui;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.PaintEvent;
@@ -13,6 +13,8 @@ public class ImagePanel extends Canvas implements PaintListener {
 
 	public ImagePanel(Composite parent) {
 		super(parent, SWT.BORDER);
+		this.setSize(900, 900);
+		this.pack();
 		
 		this.addPaintListener(this);
 	}

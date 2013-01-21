@@ -1,4 +1,4 @@
-package gui.swt;
+package gui;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.layout.GridData;
@@ -22,10 +22,10 @@ public class SettingsPane extends Composite {
 		this.usernameTextBox.setLayoutData(textgd);
 		
 		this.timePeriodButtonGroup =  new TimePeriodButtonGroup(this);
-		this.timePeriodButtonGroup.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true));
+		this.timePeriodButtonGroup.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false));
 		
 		this.dimensionsGroup = new DimensionsPanel(this);
-		this.dimensionsGroup.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true));
+		this.dimensionsGroup.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false));
 		
 		this.showNamesCheckbox = new Button(this, SWT.CHECK);
 		this.showNamesCheckbox.setText("Show names");

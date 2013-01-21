@@ -1,4 +1,4 @@
-package gui.swt;
+package gui;
 
 import java.util.HashMap;
 import java.util.Map;

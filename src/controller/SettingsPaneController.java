@@ -1,4 +1,4 @@
-package controller.swt;
+package controller;
 
 import java.util.Map;
 
@@ -10,7 +10,7 @@ import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.widgets.Spinner;
 import org.eclipse.swt.widgets.Text;
 
-import gui.swt.SettingsPane;
+import gui.SettingsPane;
 import base.CollageSettings;
 import base.TimePeriod;
 
